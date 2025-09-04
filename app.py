@@ -12,7 +12,7 @@ st.title("Nyaaysetu")
 @st.cache_resource
 def get_openai_client():
     # Publicly set OpenAI API key
-    api_key = "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"
+    api_key = "openAI access token"
     return OpenAI(api_key=api_key)
 
 client = get_openai_client()
@@ -74,4 +74,5 @@ Document:
         st.error("Please upload a file or paste some text to simplify.")
 
 import os
+
 os.system('C:/Users/Nihal31/OneDrive - Amrita Vishwa Vidyapeetham/Documents/Nyaaysetu/venv/Scripts/python.exe app.py')
